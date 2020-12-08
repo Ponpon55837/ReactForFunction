@@ -1,0 +1,112 @@
+body {
+  text-align: center;
+  margin: 0 auto;
+}
+.App {
+  text-align: center;
+}
+#navbar {
+  background-color: #CAE9C3;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 60px;
+  padding-top: 20px;
+  transition:'all 0.5s';
+  margin-top: 0;
+  z-Index: 5;
+}
+#imgComponent {
+  margin-top: 30px;
+}
+#changeIDSRC {
+  margin: 70px 0 auto auto;
+  position: relative;
+  z-index:1;
+}
+#minusButton {
+  margin-top: 160px;
+  left:10%;
+  z-index:2;
+}
+#plusButton {
+  margin-top: 160px;
+  right:10%;
+  z-index:2;
+}
+#leftcontent {
+  position: absolute;
+}
+#centralcontent {
+  float: left;
+  max-width: 800px;
+  margin-left: 23%;
+}
+#dataImg {
+  width:150px;
+  height:150px;
+}
+.data{
+  float: left;
+  margin: 5px 2px 5px 2px;
+}
+img {
+  border-radius: 8px;
+  width: 800px;
+  height:300px;
+}
+
+button {
+  font-size: 60px;
+  vertical-align:middle;
+  position:absolute;
+  background-color: transparent;
+  border:none;
+  opacity: 0.5;
+}
+
+button:hover {
+  opacity: 1;
+}
+
+.top-jumper {
+  position: fixed;
+  right: 5%;
+  bottom:  5%;
+  width: 80px;
+  height: 80px;
+  background-color: #fff;
+  border: none;
+  font-size: 12px;
+  border-radius: 50px;
+}
+.top-jumper:hover {
+  font-size: 30px;
+  font-style: bold;
+  opacity: 0.5;
+}
+
+.backdrop{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0,0,0,0.5);
+  z-index:5;
+}
+.dropcontent {
+  background-color: #ffffff;
+  border-radius: 20px;
+  max-width: 800px;
+  position: fixed;
+  top:25%;
+  left: 30%;
+}
+.backdrop img{
+  display: block;
+  max-width: 600px;
+  max-height: 400px;
+  margin: 8% auto 0 auto;
+}
