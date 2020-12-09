@@ -3,116 +3,116 @@
     "id" : "1",
     "img" : "images-1.jpeg",
     "title" : "第一顆奇異果",
-    "content" : "測試看看內容怎樣"
+    "content" : "這是一顆新鮮的奇異果，表皮稍微有點粗糙，軟硬適中，應該不錯吃"
   }, {
     "id" : "2",
     "img" : "images-2.jpeg",
     "title" : "第一顆蓮霧",
-    "content" : ""
+    "content" : "這是一顆稍微有點過熟的蓮霧，表皮乾乾的，雖然皮可以直接吃，但是可能不是特別美味"
   },{
     "id" : "3",
     "img" : "images-3.jpeg",
     "title" : "第一顆酪梨",
-    "content" : ""
+    "content" : "這是一顆新鮮的外皮很硬的酪梨，相當的大，應該不錯吃"
   }, {
     "id" : "4",
     "img" : "images-4.jpeg",
     "title" : "第一顆西瓜",
-    "content" : ""
+    "content" : "這是一顆不夠熟的西瓜，外皮很硬，裡面可能是水分不是很多"
   }, {
     "id" : "5",
     "img" : "images-5.jpeg",
     "title" : "第一組香蕉",
-    "content" : ""
+    "content" : "這是一組軟硬適中，新鮮的香蕉，肯定不錯吃"
   },
   {
     "id" : "6",
     "img" : "images-1.jpeg",
     "title" : "第二顆奇異果",
-    "content" : ""
+    "content" : "這是一顆多汁的奇異果，不過外皮有點磕磕碰碰到，相當可惜"
   },
   {
     "id" : "7",
     "img" : "images-2.jpeg",
     "title" : "第二顆蓮霧",
-    "content" : ""
+    "content" : "這是一顆新鮮又多汁的蓮霧，外皮相當薄，看來是有經過特殊栽種的方式"
   },
   {
     "id" : "8",
     "img" : "images-3.jpeg",
     "title" : "第二顆酪梨",
-    "content" : ""
+    "content" : "這是一顆過熟的酪梨，外皮軟，水分應該不足。"
   },
   {
     "id" : "9",
     "img" : "images-4.jpeg",
     "title" : "第二顆西瓜",
-    "content" : ""
+    "content" : "這是一顆水分不足的西瓜，有點過熟"
   },
   {
     "id" : "10",
     "img" : "images-5.jpeg",
     "title" : "第二組香蕉",
-    "content" : ""
+    "content" : "這是一組新鮮好吃的香蕉，軟硬適中"
   },
   {
     "id" : "11",
     "img" : "images-1.jpeg",
     "title" : "第三顆奇異果",
-    "content" : ""
+    "content" : "這是一顆過熟的奇異果，太軟導致口感很差"
   },
   {
     "id" : "12",
     "img" : "images-2.jpeg",
     "title" : "第三顆蓮霧",
-    "content" : ""
+    "content" : "這是一顆水分很足，多汁的蓮霧，也很新鮮"
   },
   {
     "id" : "13",
     "img" : "images-3.jpeg",
     "title" : "第三顆酪梨",
-    "content" : ""
+    "content" : "這是一顆新鮮的酪梨，不過有點太硬了"
   },
   {
     "id" : "14",
     "img" : "images-4.jpeg",
     "title" : "第三顆西瓜",
-    "content" : ""
+    "content" : "這是一顆多汁的西瓜，但是日曬造成很多傷痕，外觀不是很好看"
   },
   {
     "id" : "15",
     "img" : "images-5.jpeg",
-    "title" : "第四組香蕉",
-    "content" : ""
+    "title" : "第三組香蕉",
+    "content" : "這是一組過熟，軟爛的香蕉，大概不好吃"
   },
   {
     "id" : "16",
     "img" : "images-1.jpeg",
     "title" : "第四顆奇異果",
-    "content" : ""
+    "content" : "這是一顆軟硬適中，水分稍稍不足的奇異果，但是還算得上不錯"
   },
   {
     "id" : "17",
     "img" : "images-2.jpeg",
     "title" : "第四顆蓮霧",
-    "content" : ""
+    "content" : "這是一顆過熟的蓮霧，方方面面都有點糟糕"
   },
   {
     "id" : "18",
     "img" : "images-3.jpeg",
     "title" : "第四顆酪梨",
-    "content" : ""
+    "content" : "這是一顆挺新鮮的酪梨，可惜裝箱的時候碰撞到，造成一部分壞掉了"
   },
   {
     "id" : "19",
     "img" : "images-4.jpeg",
     "title" : "第四顆西瓜",
-    "content" : ""
+    "content" : "這是一顆太小的西瓜，還來不及長大就被摘下來，相當可惜"
   },
   {
     "id" : "20",
     "img" : "images-5.jpeg",
-    "title" : "第五組香蕉",
-    "content" : ""
+    "title" : "第四組香蕉",
+    "content" : "這是一組新鮮軟硬適中的香蕉，口感肯定很棒"
   }
 ]

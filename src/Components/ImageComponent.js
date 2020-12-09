@@ -53,8 +53,8 @@ const ImageComponent = () => {
 
   return (
     <div id='imgComponent'>
-      <button id='minusButton' onClick={minusFunc}>&laquo;</button>
-      <button id='plusButton' onClick={plusFunc}>&raquo;</button>
+      <button id='minusButton' className='imgButton' onClick={minusFunc}>&laquo;</button>
+      <button id='plusButton' className='imgButton' onClick={plusFunc}>&raquo;</button>
       <img id='changeIDSRC' src={src} alt={alt} />
     </div>
   )

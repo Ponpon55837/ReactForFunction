@@ -1,14 +1,14 @@
 import React from 'react'
 
-const LeftContent = () => {
+const LeftContent = ({ setSearchTerm }) => {
 
   return (
     <div id='leftcontent'>
       <ul>
-        <li>表面光滑的</li>
-        <li>皮可以直接吃的</li>
-        <li>外皮很硬的</li>
-        <li>有籽的</li>
+        <li onClick={() => setSearchTerm('新鮮')}>新鮮的</li>
+        <li onClick={() => setSearchTerm('多汁')}>多汁的</li>
+        <li onClick={() => setSearchTerm('軟硬適中')}>軟硬適中的</li>
+        <li onClick={() => setSearchTerm('過熟')}>過熟的</li>
       </ul>
     </div>
   )
