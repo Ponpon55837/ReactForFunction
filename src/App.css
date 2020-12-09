@@ -21,6 +21,7 @@ body {
 }
 #search-input {
   margin-left: 50px;
+  height: 30px;
   float: left;
 }
 #imgComponent {

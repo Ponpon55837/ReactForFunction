@@ -18,7 +18,7 @@ const ImageComponent = () => {
   const pictureAltArray = ['圖片來源1', '圖片來源2', '圖片來源3', '圖片來源4', '圖片來源5']
 
   useEffect(() => {
-    const timeCountChange = setInterval(() => {
+    const timeCountChange = setTimeout(() => {
       setSrc(pictureSRCArray[count])
       setAlt(pictureAltArray[count])
       setCount((count + 1) % pictureAltArray.length)

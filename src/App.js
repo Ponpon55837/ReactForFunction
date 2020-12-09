@@ -1,7 +1,8 @@
 import React, { useState } from 'react'
 import './App.css'
 import SearchComponent from './Components/SearchComponent'
-import ImageComponent from './Components/ImageComponent'
+// import ImageComponent from './Components/ImageComponent'
+import Slider from './Components/Slider'
 import TimeCountComponent from './Components/TimeCountComponent'
 import Content from './Components/ContentComponents/Content'
 import data from './Json/data.json'
@@ -25,7 +26,7 @@ const App = () => {
   return (
     <>
       <SearchComponent searchTerm={searchTerm} inputChangeHandler={inputChangeHandler} setSearchTerm={setSearchTerm} />
-      <ImageComponent />
+      <Slider />
       <TimeCountComponent />
       <Content result={result} dataAPI={dataAPI} setSearchTerm={setSearchTerm} />
     </>
