@@ -9,7 +9,7 @@ const Slider = () => {
   const goToNext = () => {
     setCurrent(current === length - 1 ? 0 : current + 1)
   }
-  console.log(current)
+  
   useEffect(() => {
     setTimeout(goToNext, 5000)
   })
@@ -17,8 +17,6 @@ const Slider = () => {
   if (!Array.isArray(defaultSlides) || length <= 0) {
     return null
   }
-
-  console.log(defaultSlides[current])
 
   return (
     <section className="slider">
