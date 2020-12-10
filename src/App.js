@@ -28,7 +28,7 @@ const App = () => {
       <SearchComponent searchTerm={searchTerm} inputChangeHandler={inputChangeHandler} setSearchTerm={setSearchTerm} />
       <Slider />
       <TimeCountComponent />
-      <Content result={result} dataAPI={dataAPI} setSearchTerm={setSearchTerm} />
+      <Content result={result} setSearchTerm={setSearchTerm} />
     </>
   )
 }
