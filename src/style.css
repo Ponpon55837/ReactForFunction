@@ -29,6 +29,7 @@
 .sliderMinus {
   left: 0;
   margin-top: 100px;
+  padding-left: 100px;
   font-size: 60px;
   float: left;
   background-color: transparent;
@@ -39,12 +40,13 @@
 
 .sliderMinus:hover {
   opacity: 1;
-  color: #ffffff;
+  /* color: #ffffff; */
 }
 
 .sliderPlus {
   right: 0;
   margin-top: 100px;
+  padding-right: 100px;
   font-size: 60px;
   float: right;
   background-color: transparent;
@@ -55,7 +57,7 @@
 
 .sliderPlus:hover {
   opacity: 1;
-  color: #ffffff;
+  /* color: #ffffff; */
 }
 
 .image {
@@ -87,4 +89,30 @@
 
 .imagelil {
   margin-left: 3px;
+}
+
+
+.slideimg {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  position: absolute;
+  z-index: -1;
+}
+.image11 {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  padding-top: 260px;
+}
+.image11 button{
+  margin: 3px;
+  border-radius: 50px;
+  width: 25px;
+  height: 25px;
+  opacity: .4;
+  background-color: #CFE1DA;
+}
+.image11 button:hover {
+  opacity: .8;
 }

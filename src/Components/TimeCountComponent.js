@@ -27,7 +27,6 @@ const TimeCountComponent = () => {
         }
       },1000)
     }
-
     initializeClock(deadline)
   }, [])
 

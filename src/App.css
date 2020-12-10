@@ -125,11 +125,12 @@ input {
   border: none;
   font-size: 12px;
   border-radius: 50px;
+  opacity: .3
 }
 .top-jumper:hover {
   font-size: 30px;
   font-style: bold;
-  opacity: 0.5;
+  opacity: 0.7;
 }
 
 .backdrop{
