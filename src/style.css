@@ -105,6 +105,10 @@
   position: absolute;
   z-index: -1;
 }
+.slideimg img {
+  border-bottom-left-radius: 25px;
+  border-bottom-right-radius: 25px;
+}
 .image11 {
   display: flex;
   justify-content: center;

@@ -8,7 +8,6 @@ const SearchComponent = ({ searchTerm, inputChangeHandler, setSearchTerm }) => {
         type="text"
         value={searchTerm}
         id="search-input"
-        size='30'
         placeholder="Search..."
         onChange={inputChangeHandler} />
       <button className='inputButton' onClick={() => setSearchTerm('')}>clear</button>
