@@ -33,9 +33,16 @@ const Slider = () => {
   return (
     <section className="slider">
       {
-        <div className="slideimg">
-          <img src={defaultSlides[current].image} alt={defaultSlides[current].image} />
+        <div>
+          <div className="slide active">
+            <h1>{defaultSlides[current].title}</h1>
+            <h2>{defaultSlides[current].subtitle}</h2>
+          </div>
+          <div className="slideimg">
+            <img src={defaultSlides[current].image} alt={defaultSlides[current].image} />
+          </div>
         </div>
+
       }
       <button className='sliderMinus' onClick={() => minusOne()}>&laquo;</button>
       <button className='sliderPlus' onClick={() => addOne()}>&raquo;</button>
